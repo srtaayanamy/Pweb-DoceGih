@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+}
+
+#cabeçalho-top{
+    height: 60px;
+    width: auto;
+    background-color: pink;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 90px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#titulo-top{
+    color: white;
+    text-shadow: 1px 1px 6px palevioletred;
+    font-family: "Dancing Script", cursive;
+    padding-left: 10px;
+}
+
+#titulo-top:hover{
+    text-shadow: 1px 1px 6px pink;
+}
+
+nav.menu-lateral{
+    width: 70px;
+    height: 550px;
+    background-color: palevioletred;
+    padding: 20px 0px 40px 1%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    box-shadow: 3px 0px 0px rgb(180, 88, 119);
+    transition: .3s;
+}
+
+nav.menu-lateral:hover{
+    width: 300px;
+}
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+}
+
+.btn-expandir > i{
+    color: white;
+    font-size: 24px;
+    cursor: pointer
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu{
+    transition: .2s;
+}
+
+ul li.item-menu:hover{
+    background-color: rgb(211, 158, 176);
+}
+
+ul li.item-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+#container-main{
+    height: 500px;
+    width: auto;
+    background-color: #faeafb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.bloquinhos-centro{
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    display: none;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: palevioletred;
+    text-shadow: 1px 1px 1px white;
+}
+
+#container-dois{
+    height: 400px;
+    width: auto;
+    background-color: #f6dbf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#container-dois img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.botao-carrossel {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    color: palevioletred;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.botao-carrossel:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.botao-carrossel.anterior {
+    left: 10px;
+}
+
+.botao-carrossel.proximo {
+    right: 10px;
+}
+
+#caixa-opniao{
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    box-shadow: 10px 5px 1px palevioletred;
+    box-sizing: none;
+}
+
+.bloco-main{
+    height: 300px;
+    width: 300px;
+    background-color: #faeafb;
+    display: flex;
+}
+
+.bloco-img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+#texto-img-main{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    position: absolute;
+    text-decoration: none;
+    color: rgb(114, 55, 75);
+    font-size: 20px;
+    background-color:  rgb(241, 199, 206);
+    background-size: 100%;
+    text-shadow: 1px 1px 5px white;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#texto-img-main:hover{
+    opacity: 100%;
+    transition: .4s;
+}
+
+#rodape-footer{
+    height: 400px;
+    width: auto;
+    background-color: rgb(230, 165, 176);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 15px;
+}
+
+#texto-rodapé{
+    font-size: 15px;
+    color: black;
+    font-family: "Dancing Script", cursive;
+}
