@@ -1,14 +1,15 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 .dancing-script {
-  font-family: "Dancing Script", cursive;
+    font-family: "Dancing Script", cursive;
 }
 
-#cabeçalho-top{
+#cabeçalho-top {
     height: 60px;
     width: auto;
     background-color: pink;
@@ -18,7 +19,7 @@
     justify-content: flex-start;
 }
 
-#logo{
+#logo {
     height: 50px;
     width: 50px;
     margin-left: 90px;
@@ -26,20 +27,20 @@
     cursor: pointer;
 }
 
-#titulo-top{
+#titulo-top {
     color: white;
     text-shadow: 1px 1px 6px palevioletred;
     font-family: "Dancing Script", cursive;
     padding-left: 10px;
 }
 
-#titulo-top:hover{
+#titulo-top:hover {
     text-shadow: 1px 1px 6px pink;
 }
 
-nav.menu-lateral{
+nav.menu-lateral {
     width: 70px;
-    height: 550px;
+    height: 560px;
     background-color: palevioletred;
     padding: 20px 0px 40px 1%;
     position: absolute;
@@ -50,35 +51,35 @@ nav.menu-lateral{
     transition: .3s;
 }
 
-nav.menu-lateral:hover{
+nav.menu-lateral:hover {
     width: 300px;
 }
 
-.btn-expandir{
+.btn-expandir {
     width: 100%;
     padding-left: 10px;
 }
 
-.btn-expandir > i{
+.btn-expandir>i {
     color: white;
     font-size: 24px;
     cursor: pointer
 }
 
-ul{
+ul {
     height: 100%;
     list-style-type: none;
 }
 
-ul li.item-menu{
+ul li.item-menu {
     transition: .2s;
 }
 
-ul li.item-menu:hover{
+ul li.item-menu:hover {
     background-color: rgb(211, 158, 176);
 }
 
-ul li.item-menu a{
+ul li.item-menu a {
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -88,7 +89,7 @@ ul li.item-menu a{
     margin-left: 15px;
 }
 
-#container-main{
+#container-main {
     height: 500px;
     width: auto;
     background-color: #faeafb;
@@ -99,35 +100,40 @@ ul li.item-menu a{
     gap: 20px;
 }
 
-.bloquinhos-centro{
+.bloquinhos-centro {
     height: 300px;
     width: 300px;
     background-color: pink;
     display: none;
+    border-radius: 20px;
+    box-shadow: 1px 5px 1px palevioletred;
+
 }
 
-h2{
+h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
     color: palevioletred;
     text-shadow: 1px 1px 1px white;
 }
 
-#container-dois{
+#container-dois {
     height: 400px;
     width: auto;
     background-color: #f6dbf8;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     position: relative;
     overflow: hidden;
+    padding-left: 70px;
 }
 
 #container-dois img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 .botao-carrossel {
@@ -139,7 +145,6 @@ h2{
     color: palevioletred;
     font-size: 24px;
     cursor: pointer;
-    padding: 10px;
     border-radius: 50%;
     transition: background-color 0.3s;
 }
@@ -149,14 +154,14 @@ h2{
 }
 
 .botao-carrossel.anterior {
-    left: 10px;
+    left: 35px;
 }
 
 .botao-carrossel.proximo {
-    right: 10px;
+    left: 370px;
 }
 
-#caixa-opniao{
+#caixa-opniao {
     height: 200px;
     width: 500px;
     background-color: pink;
@@ -166,20 +171,20 @@ h2{
     box-sizing: none;
 }
 
-.bloco-main{
+.bloco-main {
     height: 300px;
     width: 300px;
     background-color: #faeafb;
     display: flex;
 }
 
-.bloco-img{
+.bloco-img {
     height: 300px;
     width: 300px;
     border-radius: 20px;
 }
 
-#texto-img-main{
+#texto-img-main {
     height: 300px;
     width: 300px;
     border-radius: 20px;
@@ -187,7 +192,7 @@ h2{
     text-decoration: none;
     color: rgb(114, 55, 75);
     font-size: 20px;
-    background-color:  rgb(241, 199, 206);
+    background-color: rgb(241, 199, 206);
     background-size: 100%;
     text-shadow: 1px 1px 5px white;
     opacity: 0;
@@ -196,12 +201,12 @@ h2{
     justify-content: center;
 }
 
-#texto-img-main:hover{
+#texto-img-main:hover {
     opacity: 100%;
     transition: .4s;
 }
 
-#rodape-footer{
+#rodape-footer {
     height: 400px;
     width: auto;
     background-color: rgb(230, 165, 176);
@@ -212,7 +217,7 @@ h2{
     padding-bottom: 15px;
 }
 
-#texto-rodapé{
+#texto-rodapé {
     font-size: 15px;
     color: black;
     font-family: "Dancing Script", cursive;
